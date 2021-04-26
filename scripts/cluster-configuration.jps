@@ -2,7 +2,7 @@
     "type": "update",
     "version": "0.99",
     "name": "MySQL Auto-Cluster",
-    "description": "[@Deprecated: see /scripts/ms-mm-configuration.jps] MySQL Auto Clustering: 1 x Master + N x Slave",
+    "description": "[@Deprecated: see /scripts/ms-mm-configuration.jps] MySQL Auto Clustering: 1 x Primary + N x Secondary",
     "globals": {
         "PATH": "https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/master",
         "DB_USER": "${settings.db_user}",
